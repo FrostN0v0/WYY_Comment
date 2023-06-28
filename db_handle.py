@@ -1,11 +1,8 @@
 import pymongo
 import csv
-import datetime
 
 
-
-def write_data(docu_name, music_id):
-    wyy_comment = datetime.datetime.now().strftime("%Y-%m-%d-") + 'toplist'  # 定义数据库名称
+def write_data(docu_name, music_id, wyy_comment):
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")
     mydb = myclient[wyy_comment]    # 新建数据库
     mycol = mydb[docu_name]  # 定义表单名称
