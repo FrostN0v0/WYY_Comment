@@ -3,4 +3,4 @@
 
 用于工业物联网与大数据课程实验任务
 
-![image](https://github.com/FrostN0v0/WYY_Comment//raw_data/笼.png "词云图示例")
+![image](https://github.com/FrostN0v0/WYY_Comment//comment_cloud/笼.png "词云图示例")
